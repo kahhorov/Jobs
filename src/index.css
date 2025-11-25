@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@theme inline {
+  --color-primary: #5ca5a5;
+  --color-green-900: #2b3939;
+  --color-primary-10: rgba(92, 165, 165, 1);
+  --color-gray: #7c8f8f;
+  --color-white-lght: rgba(255, 255, 255, 1);
+  --color-text: rgba(43, 57, 57, 1);
+  --color-skills: rgba(92, 165, 165, 0.047);
+
+  /* box shadow */
+  --shadow-card: 0 15px 20px -5px #0d718226;
+}
+
+@layer utilities {
+  .container {
+    @apply w-full max-w-[1142px] mx-auto px-4;
+  }
+}
